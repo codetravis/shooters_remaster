@@ -1,14 +1,28 @@
 @media screen and (max-width: 768px)
 {
-  #banner > img {
+
+  #banner {
+    height: 80px;
     max-width: 100%;
+    padding-top: 0;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+  }
+
+  #banner > img {
+    position: static;
+    margin: 0 auto;
+  }
+
+  nav.menu {
+    height: auto;
+    display: block;
   }
 
   ul.menu-list {
     height: auto;
     text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
   }
 
   li.menu-item {
@@ -22,8 +36,6 @@
 
   .stretch {
     width: 100%;
-    display: inline-block;
-    *display: inline;
     zoom: 1;
   }
 
@@ -64,30 +76,42 @@
 
 @media screen and (max-width: 480px)
 {
+
+  #content-wrapper {
+    margin: 20px 2% 100px 2%;
+  }
+
+  #banner > img {
+    width: 100%;
+  }
+
+  header.top {
+    display: block;
+    height: auto;
+    position: relative;
+    border-top: 10px solid #000090;
+    padding: 0;
+    top: 0 !important;
+  }
+
   body {
     font-family: Calibri,Arial,Helvetica,sans-serif;
   }
 
-  #banner {
-  }
-
   .menu {
-    display: none;
+    height: auto;
   }
 
   #wrapper {
     width: inherit;
   }
 
-  a.menu-item-link {
-    font-family: Calibri,Arial,Helvetica,sans-serif;
+  .menu ul li {
+    height: auto;
   }
 
-  #menu-select {
-    display: block;
-    margin: 0.5em auto;
-    width: 90%;
-    font-size: 1em;
+  a.menu-item-link {
+    font-family: Calibri,Arial,Helvetica,sans-serif;
   }
 
   .long-box, .small-box, #banner {
