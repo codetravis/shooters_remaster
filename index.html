@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shooters Indoor Range and Gun Shop</title>
+  <link rel="stylesheet" href="assets/stylesheets/base.css" type="text/css" />
+  <link rel="stylesheet" href="assets/stylesheets/responsive.css" type="text/css" />
+</head>
+<body>
+  <div id="banner">
+    <img id="banner-building" src="assets/images/shooters_banner_moto.jpg" />
+  </div>
+  <nav class="menu">
+    <ul class="menu-list">
+      <li class="menu-item">
+        <a href="" class="menu-item-link">About</a>
+      </li>
+      <li class="menu-item">
+        <a href="" class="menu-item-link">Handguns</a>
+      </li>
+      <li class="menu-item">
+        <a href="" class="menu-item-link">Long Guns</a>
+      </li>
+      <li class="menu-item">
+        <a href="" class="menu-item-link">Indoor Range</a>
+      </li>
+      <li class="stretch"></li>
+    </ul>
+  </nav>
+  <select id="menu-select">
+    <option selected="selected" value="">Go to...</option>
+    <option value="/">Home</option>
+    <option value="/handguns">Handguns</option>
+    <option value="/longguns">Long Guns</option>
+    <option value="/indoorrange">Indoor Range</option>
+  </select>
+  <div id="content">
+    <article id="description-box">
+      <h3>About Us</h3>
+      <table id="address">
+        <tr><th>Address</th></tr>
+        <tr><td>1025 Patriots Way</td></tr>
+        <tr><td>Augusta, GA 30907</td></tr>
+      </table>
+
+      <table id="phone">
+        <tr><th>Phone</th></tr>
+        <tr><td>706-860-7778</td></tr>
+        <tr><td>706-860-7768 (fax)</td></tr>
+      </table>
+    </article>
+  </div>
+  <footer id="main-footer">
+    <div class="social-bar">
+      <a href="" title="Facebook">
+        <img src="assets/images/logo_facebook.gif" alt="Facebook Icon" />
+      </a>
+  </footer>
+</body>
+</html>
+<script type="text/javascript">
+  document.getElementById("menu-select").addEventListener("change", function() {
+   window.location.href = this.options[this.selectedIndex].value;
+});
+</script>
