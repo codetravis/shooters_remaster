@@ -4,5 +4,6 @@ var app = angular.module('shooter_app', ['ngRoute'])
     .when('/', { templateUrl: 'home.html' })
     .when('/indoor_range', { templateUrl: 'indoor_range.html' })
     .when('/handguns', { templateUrl: 'handguns.html' })
+    .when('/longguns', { templateUrl: 'longguns.html' })
     .otherwise({ redirectTo: '/' });
 }]);
