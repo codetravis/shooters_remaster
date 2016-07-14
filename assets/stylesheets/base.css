@@ -13,11 +13,13 @@ header.top {
   height: 100%;
   max-width: 300px;
   min-width: 300px;
-  margin-top: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   flex: 1;
   display: block;
   overflow: hidden;
   position: relative;
+  background-color: #E3E3E3;
 }
 
 nav.menu {
@@ -32,8 +34,8 @@ nav.menu {
 
 ul.menu-list {
   list-style-type: none;
-  padding: 0;
-  margin: 1em 0em;
+  padding: 0.2em 0 0 0;
+  margin: 0.5em 0em;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -82,11 +84,12 @@ img {
 
 #content-wrapper {
   display: block;
-  margin: 100px 5% 100px 5%;
+  margin: 150px 5% 100px 5%;
 }
 
 h1, h2, h3 {
   text-align: center;
+  padding-top: 0.5em;
 }
 
 .float-left {
@@ -127,6 +130,36 @@ p {
   margin-bottom: 0.5em;
 }
 
+.strong {
+  font-weight: bold;
+  margin-bottom: 0.1em;
+}
+
+.headroom {
+  margin-top: 1em;
+}
+
+.centered {
+  margin: 1em auto 1em auto;
+  width: 50%
+}
+
+.centered p {
+  text-align: center;
+}
+
+.centered table {
+  margin: 0 auto;
+}
+
+.centered ul {
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
 #main-footer {
   background-color: #B7B7B7;
   border-top: solid;
@@ -141,4 +174,15 @@ p {
 .social-bar a {
   text-decoration: none;
   margin-right: 3em;
+}
+
+#handgun_images {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 626px;
+}
+
+.product_img {
+  width: 160px;
+  height: 110px;
 }
