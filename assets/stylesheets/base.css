@@ -70,8 +70,7 @@ a.menu-item-link:active {
 }
 
 body {
-  max-width: 1024px;
-  margin: 0 auto;
+  margin: 0;
   font-family: Calibri,Arial,Helvetica,sans-serif;
   background-color: #e3e3e3;
   font-size: 1.2em;
