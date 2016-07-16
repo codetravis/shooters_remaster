@@ -39,6 +39,7 @@
   ul.menu-list {
     height: auto;
     text-align: justify;
+    padding-top: 0;
   }
 
   li.menu-item {
@@ -60,7 +61,8 @@
   }
 
   #content-wrapper {
-    margin: 20px 2% 100px 2%;
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
 
   #wrapper {
