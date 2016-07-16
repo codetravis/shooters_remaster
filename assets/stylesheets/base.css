@@ -91,18 +91,6 @@ h1, h2, h3 {
   padding-top: 0.5em;
 }
 
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.clear-both {
-  clear: both;
-}
-
 .shadow
 {
    -webkit-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
@@ -127,6 +115,7 @@ h1, h2, h3 {
 p {
   margin-top: 0;
   margin-bottom: 0.5em;
+  font-size: 1.5em;
 }
 
 .strong {
@@ -138,25 +127,9 @@ p {
   margin-top: 1em;
 }
 
+
 .centered {
-  margin: 1em auto 1em auto;
-  width: 50%
-}
-
-.centered p {
   text-align: center;
-}
-
-.centered table {
-  margin: 0 auto;
-}
-
-.centered ul {
-  margin: 0 auto;
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-  justify-content: center;
 }
 
 #main-footer {
