@@ -7,6 +7,7 @@ header.top {
   height: 85px;
   display: flex;
   -webkit-box-align: center;
+  z-index: 600;
 }
 
 #banner {
@@ -30,11 +31,12 @@ nav.menu {
   text-align: center;
   overflow: hidden;
   position: relative;
+  height: 91px;
 }
 
 ul.menu-list {
   list-style-type: none;
-  padding: 0.2em 0 0 0;
+  padding: 1em 0 0 0;
   margin: 0.5em 0em;
   text-align: center;
   display: flex;
@@ -73,7 +75,7 @@ body {
   margin: 0;
   font-family: Calibri,Arial,Helvetica,sans-serif;
   background-color: #e3e3e3;
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 
@@ -81,26 +83,18 @@ img {
   border: 0em;
 }
 
+.section {
+  padding: 10rem 0 10rem 0;
+}
+
 #content-wrapper {
   display: block;
-  margin: 150px 5% 100px 5%;
+  margin-top: 91px;
 }
 
 h1, h2, h3 {
   text-align: center;
   padding-top: 0.5em;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.clear-both {
-  clear: both;
 }
 
 .shadow
@@ -111,17 +105,6 @@ h1, h2, h3 {
    -ms-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
    box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
    margin-right: 0.4em !important;
-}
-
-.long-box, .small-box {
-  background-color: #cdcdcd;
-  padding: 0em 0.3em;
-  margin: 0em;
-  margin-bottom: 1em;
-}
-
-.small-box {
-  width: 47%;
 }
 
 p {
@@ -138,25 +121,9 @@ p {
   margin-top: 1em;
 }
 
+
 .centered {
-  margin: 1em auto 1em auto;
-  width: 50%
-}
-
-.centered p {
   text-align: center;
-}
-
-.centered table {
-  margin: 0 auto;
-}
-
-.centered ul {
-  margin: 0 auto;
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-  justify-content: center;
 }
 
 #main-footer {
@@ -184,4 +151,12 @@ p {
 .product_img {
   width: 160px;
   height: 110px;
+}
+
+.whitebg {
+  background-color: white;
+}
+
+.clean-list {
+  list-style: none;
 }
