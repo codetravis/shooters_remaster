@@ -97,6 +97,10 @@ h1, h2, h3 {
   padding-top: 0.5em;
 }
 
+h5 {
+  padding-top: 0.5em;
+}
+
 .shadow
 {
    -webkit-box-shadow: 0.4em 0.4em 0.2em #5C5B5B;
